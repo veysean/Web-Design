@@ -1,0 +1,29 @@
+.breakfast,.lunch,.dinner {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.category-container {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 50px;
+}
+
+.category-card {
+    flex: 25%;
+    background-color: #FFC436;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.category-card img {
+    width: 250px;
+    height: 200px;
+    margin-bottom: 10px;
+    padding: 7px;
+    border-radius: 50%;
+}

@@ -1,0 +1,63 @@
+.history {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 70px;
+}
+.his-text{
+    max-width: 50%;
+}
+.his-text h2{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.his-text p{
+    margin: 20px 0;
+    font-size: 25px;
+}
+.see-more{
+    background-color:#FFC436;
+    color: #0C356A;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 700;
+}
+.img-his{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.img-his img{
+    max-width: 80%;
+}
+
+
+.mission-vision {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 70px;
+}
+
+.mission ,.vision, .p1, .p2 {
+    height: 300px;
+    max-width: 600px;
+    padding: 20px;
+    border:2px solid #FFC436;
+}
+
+.mission ,.vision ,.p1,.p2 p{
+    margin: 20px 0;
+    font-size: 25px;
+}
+
+
+.testimonials {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 70px;
+}
