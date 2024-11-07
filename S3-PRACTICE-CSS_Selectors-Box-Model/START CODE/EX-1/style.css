@@ -1,0 +1,28 @@
+body {
+    background: grey;
+    font-family: sans-serif;
+}
+.item {
+    background-color: white;
+    margin: 0px 100px 0px 100px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.read {
+    border-radius: 30px;
+    border-style: none;
+    padding: 10px;
+}
+#b1{
+    background-color: green;
+}
+#b2{
+    background-color: yellow;
+}
+#b3{
+    background-color: purple;
+}
+button:hover{
+    cursor: pointer;
+}
