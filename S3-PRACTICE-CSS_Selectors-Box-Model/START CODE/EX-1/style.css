@@ -7,7 +7,7 @@ body {
     margin: 0px 100px 0px 100px;
     padding: 20px;
     border-radius: 10px;
-    margin-bottom: 30px;
+    margin-block-end: 30px;
 }
 .read {
     border-radius: 30px;
