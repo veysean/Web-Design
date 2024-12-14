@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: serif;
+            color: white;
+        }
+
+        .container{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            background-color: black;
+            padding: 20px;
+        }
+        i{
+            visibility: hidden;
+        }
+        .nav {
+            display: grid;
+            grid-template-columns: repeat(5,1fr);
+            justify-items: end;
+            text-align: center;
+            gap: 50px;
+            margin-right: -70px;
+            margin-left: auto;
+        }
+        
+        .item{
+            text-align: center;
+        }
+
+        @media (max-width:768px) {
+            .item{
+                display: none;
+            }
+            i{
+                visibility: visible;
+                margin-right: -100px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo"><strong>Logo</strong></div>
+        <div class="nav">
+            <div class="item">Home</div>
+            <div class="item">About</div>
+            <div class="item">Services</div>
+            <div class="item">Contact</div>
+            <i class="fa fa-bars" aria-hidden="true"></i>
+        </div>
+    </div>
+</body>
+</html>
